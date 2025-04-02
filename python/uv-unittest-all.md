@@ -5,6 +5,7 @@ Description: |
 Tags:
   - python
   - python-commands
+  - uv
 ---
 
 ```shell
