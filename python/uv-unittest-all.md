@@ -1,5 +1,5 @@
 ---
-Title: uvで全てのunittestのテストケースを実行する
+Title: uv - Run all unittest
 Description: |
   uvで全てのunittestのテストケースを実行する。
 Tags:
