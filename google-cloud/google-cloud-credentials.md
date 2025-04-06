@@ -4,6 +4,7 @@ Description: |
   Google Cloud Credentials
 Tags:
   - google-cloud
+  - credentials
   - environment-variable
 ---
 
