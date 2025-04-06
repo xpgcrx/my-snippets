@@ -3,6 +3,7 @@ Title: EvernoteにコピペしやすいMarkdown形式で出力
 Description: |
   EvernoteにコピペしやすいMarkdown形式で出力
 Tags:
+  - ai
   - prompt
 ---
 
