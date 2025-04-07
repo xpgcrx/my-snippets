@@ -1,7 +1,7 @@
 ---
-Title: teeでファイル書き込みと標準出力を同時にする
+Title: teeでファイル書き込みと標準出力/標準エラー出力を同時にする
 Description: |
-  ファイル書き込みと標準出力を同時にする。
+  ファイル書き込みと標準出力/標準エラー出力を同時にする。
 Tags:
   - linux
   - process
@@ -9,5 +9,5 @@ Tags:
 ---
 
 ```shell
-xxx.sh | tee xxx.log
+your_command 2>&1 | tee output.log
 ```
