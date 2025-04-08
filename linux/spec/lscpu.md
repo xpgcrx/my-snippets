@@ -5,6 +5,7 @@ Description: |
 Tags:
   - linux
   - spec
+  - cpu
 ---
 
 ```bash
