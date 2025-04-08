@@ -20,7 +20,8 @@ Description: |
     - -z: 圧縮して転送（ネットワークの帯域節約）
     - --progress: 転送中の進行状況を表示
     - --delete: 転送元にないファイルを転送先から削除（同期用途）
-    - --partial: 中断されたファイルを一部保持（再開時に有利）
+    - --partial: 中断されたファイルを一部保持（大きなファイルの転送の途中で失敗しても、そのファイルの途中から再開出来る）
+    - -P: --partial --progressと同じ
     - -e "ssh": 通信にSSHを使用（デフォルトで使われるが明示的にも書ける）
 Tags:
   - linux
@@ -29,13 +30,13 @@ Tags:
 
 ```shell
 // ローカルからリモートへ：ディレクトリそのものを送る
-rsync -avz --progress dir user@remote:/dest
+rsync -avzP dir user@remote:/dest
 → /dest/dir/
 
 // ローカルからリモートへ：ディレクトリの中身だけ送る
-rsync -avz --progress dir/ user@remote:/dest
+rsync -avzP dir/ user@remote:/dest
 → /dest/(中身だけ)
 
 // リモートからローカルへ：ディレクトリごと持ってくる
-rsync -avz --progress user@remote:/path/to/dir /local/destination
+rsync -avzP user@remote:/path/to/dir /local/destination
 ```
