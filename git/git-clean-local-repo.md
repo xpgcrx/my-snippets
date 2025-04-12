@@ -5,6 +5,8 @@ Description: |
   - -f: 強制的に削除（force）
   - -d: ディレクトリも含めて削除
   - -x: .gitignoreで指定されたファイルも削除
+
+  git clean -nfdで、DryRunもできる。
 Tags:
   - git
 ---
