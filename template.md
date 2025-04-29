@@ -6,7 +6,7 @@ Tags:
   - xxx
 ---
 
-````shell
+````bash
 ---
 Title: snippet template
 Description: |
