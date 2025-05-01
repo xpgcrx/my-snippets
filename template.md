@@ -15,6 +15,6 @@ Tags:
   - xxx
 ---
 
-```shell
+```bash
 xxx
 ````
