@@ -4,6 +4,7 @@ Description: |
   ユーザをスイッチする
 Tags:
   - linux
+  - users
 ---
 
 ```bash
