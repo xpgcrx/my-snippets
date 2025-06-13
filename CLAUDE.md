@@ -11,9 +11,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 すべてのスニペットは一貫したMarkdown形式とYAMLフロントマターに従います：
 
-- **Title**: スニペットの簡潔な説明。ここは英語で記述すること。
+- **Title**: スニペットの簡潔な説明。
 - **Description**: スニペットの機能の詳細説明
 - **Tags**: 整理と検索性のためのカテゴリタグ
+
+TitleとTagsは英語で記述し、それ以外は日本語で記述します。
 
 コンテンツは論理的なディレクトリに整理されています：
 
