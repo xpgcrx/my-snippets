@@ -7,4 +7,4 @@ Tags:
   - prompt
 ---
 
-Please make a plan before starting the implementation and confirm the details with me.
+Make a plan before starting the implementation and confirm the details with me.
