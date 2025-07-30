@@ -1,7 +1,7 @@
 ---
 Title: uv Cheat Sheet
 Description: |
-  高速なPythonパッケージインストーラー＆リゾルバーである`uv`のチートシートです。
+  `uv`のチートシート。
 Tags:
   - python
   - uv
