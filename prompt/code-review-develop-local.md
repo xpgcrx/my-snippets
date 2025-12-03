@@ -9,5 +9,3 @@ Tags:
 ---
 
 ローカルの現在のブランチとdevelopブランチの差分に対してコードレビューを行ってください。
-以下のファイルに記載のコードレビュー観点を中心にレビューしてください。
-/Users/yuki_yoshida/Projects/Buyer/rtb/GEMINI.md
